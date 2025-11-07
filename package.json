@@ -1,0 +1,26 @@
+{
+  "name": "pgats-automacao-web",
+  "version": "1.0.0",
+  "description": "Automação Web - PGATS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claricemf/pgats-automacao-web.git"
+  },
+  "keywords": [],
+  "author": "Clarice Ferreira",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/claricemf/pgats-automacao-web/issues"
+  },
+  "homepage": "https://github.com/claricemf/pgats-automacao-web#readme",
+  "devDependencies": {
+    "@faker-js/faker": "^10.1.0",
+    "cypress": "^15.6.0",
+    "cypress-mochawesome-reporter": "^4.0.2"
+  }
+}
