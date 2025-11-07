@@ -8,7 +8,10 @@ class Contact {
         cy.get('input[name="email"]').type(email);
         cy.get('input[name="subject"]').type(subject);
         cy.get('textarea[name="message"]').type(message);
-        cy.get('input[name="upload_file"]').selectFile('cypress/fixtures/imagem_teste.png');
+        cy.fixture('example.json').as('arquivo')
+
+        cy.get('input[type=file]').selectFile('@arquivo')
+        //cy.get('input[name="upload_file"]').selectFile('cypress/fixtures/imagem_teste.png');
     }
 
     submitContactForm() {
