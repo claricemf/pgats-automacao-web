@@ -1,11 +1,11 @@
 import { fa, faker } from '@faker-js/faker';
-import register from '../../modules/register/register';
-import home from '../../modules/home/home';
-import login from '../../modules/login/login';
-import contact from '../../modules/Contact/contact';
-import userData from '../../fixtures/example.json'; 
-import products from '../../modules/products/products';
-import cart from '../../modules/cart/cart';
+import register from '../modules/register';
+import home from '../modules/home';
+import login from '../modules/login';
+import contact from '../modules/contact';
+import userData from '../fixtures/example.json'; 
+import products from '../modules/products';
+import cart from '../modules/cart';
 
 describe('Automation Exercise', () => {
     it('Test Case 1: Register User', () => {
